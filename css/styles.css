@@ -1,0 +1,37 @@
+.error-symbol {
+    content: "❌";
+    color: red;
+}
+
+.ok-symbol {
+    content: "✔️";
+    color: green;
+}
+
+#container {
+    width: 25em;
+    margin: auto;
+}
+
+#realism-slider {
+    width: 100%;
+}
+
+#realism-slider-value {
+    width: 100%;
+    text-align: center;
+}
+
+#generator-instructions-label {
+    cursor: pointer;
+}
+
+#toggle-advanced-options-visibility {
+    font-size: small;
+    cursor: pointer;
+}
+
+#advanced-options-container {
+    display: none;
+    width: 23em;
+}
